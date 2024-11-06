@@ -1,0 +1,159 @@
+/* lab-exercise3.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 350px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.small {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.form-content {
+  margin-bottom: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333333;
+  background-color: white,#4a90e2;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+
+}
+
+a {
+  color: #4a90e2;
+  font-size: 14px;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #afcfeb;
+}
+
+.submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.submit:hover {
+  background-color: #357ab7;
+  
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #888888;
+  margin: 20px 0;
+  
+}
+.divider span {
+  margin: 0 0.5rem;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1px;
+  height: 1px;
+  background: #ddd;
+}
+
+
+
+.social {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f9f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.social:hover {
+  margin-right: 8px;
+  color: #737579;
+  background-color: #f5ecec;
+  
+  
+}
+
+footer {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #888888;
+  text-align: center;
+}
+
+footer a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
